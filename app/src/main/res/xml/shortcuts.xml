@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/ic_icon"
+        android:shortcutShortLabel="@string/shortcut_short_label1"
+        android:shortcutLongLabel="@string/shortcut_long_label1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.appshortcut"
+            android:targetClass="com.example.appshortcut.Main2Activity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="compose2"
+        android:enabled="true"
+        android:icon="@drawable/ic_icon"
+        android:shortcutShortLabel="@string/shortcut_short_label2"
+        android:shortcutLongLabel="@string/shortcut_long_label2">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.appshortcut"
+            android:targetClass="com.example.appshortcut.Main3Activity" />
+    </shortcut>
+
+</shortcuts>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppShortcut</string>
+
+    <string name="shortcut_short_label1">Activity 2</string>
+    <string name="shortcut_long_label1">Go to Activity 2</string>
+
+    <string name="shortcut_short_label2">Activity 3</string>
+    <string name="shortcut_long_label2">Go to Activity 3</string>
+
+
+</resources>
